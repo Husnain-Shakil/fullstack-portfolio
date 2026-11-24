@@ -1,4 +1,5 @@
 import { NextRequest, NextResponse } from 'next/server';
+import { createElement } from 'react';
 import { Resend } from 'resend';
 import { ContactFormEmail } from '@/app/emails/ContactFormEmail';
 
@@ -81,7 +82,7 @@ export async function POST(request: NextRequest) {
             to: process.env.CONTACT_EMAIL || 'husnainshakil123@gmail.com',
             replyTo: email,
             subject: `New Contact Form Message from ${escapedName}`,
-            react: ContactFormEmail({
+            react: createElement(ContactFormEmail, {
                 name: escapedName,
                 email: escapedEmail,
                 message: escapedMessage,
