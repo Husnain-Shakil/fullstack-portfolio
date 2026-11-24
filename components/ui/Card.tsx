@@ -1,7 +1,6 @@
 "use client";
 
 import { cn } from "@/lib/utils";
-import { motion } from "framer-motion";
 import { HTMLAttributes, forwardRef } from "react";
 
 interface CardProps extends HTMLAttributes<HTMLDivElement> {
@@ -10,27 +9,18 @@ interface CardProps extends HTMLAttributes<HTMLDivElement> {
 
 const Card = forwardRef<HTMLDivElement, CardProps>(
     ({ className, hover = false, children, ...props }, ref) => {
-        const Component = hover ? motion.div : "div";
-        const hoverProps = hover
-            ? {
-                whileHover: { y: -4 },
-                transition: { duration: 0.2 },
-            }
-            : {};
-
         return (
-            <Component
+            <div
                 ref={ref}
                 className={cn(
                     "rounded-lg border border-border bg-card text-card-foreground shadow-sm transition-shadow",
-                    hover && "hover:shadow-lg cursor-pointer",
+                    hover && "cursor-pointer transition-transform duration-200 hover:-translate-y-1 hover:shadow-lg",
                     className
                 )}
-                {...hoverProps}
                 {...props}
             >
                 {children}
-            </Component>
+            </div>
         );
     }
 );
