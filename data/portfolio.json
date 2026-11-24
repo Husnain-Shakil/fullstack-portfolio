@@ -1,0 +1,197 @@
+[
+  {
+    "id": 1,
+    "title": "Rllyme",
+    "tagline": "Monetization platform enabling creators to get paid for direct access",
+    "image": "/images/project/rllyme-project.png",
+    "cover": "/images/project/rllyme-project-details-1.webp",
+
+    "highlights": [
+      "Real-time messaging with paid access model",
+      "AI-assisted matching between users and experts",
+      "Secure payments and identity verification"
+    ],
+
+    "context": "A marketplace platform where users can pay to access expert knowledge directly instead of relying on AI or static content.",
+
+    "problem": [
+      "AI cannot answer niche or experience-based questions",
+      "Creators struggle to monetize direct interactions",
+      "No structured system for paid expert access"
+    ],
+
+    "solution": "Built a real-time platform combining messaging, payments, and identity verification to enable trusted, paid knowledge exchange.",
+
+    "role": [
+      "Developed full-stack features using MERN and Next.js",
+      "Implemented real-time messaging workflows",
+      "Integrated Stripe for secure payments",
+      "Built authentication and user role systems"
+    ],
+
+    "challenges": [
+      {
+        "title": "Real-time communication",
+        "description": "Handled state synchronization and latency issues across messaging flows."
+      },
+      {
+        "title": "Trust & verification",
+        "description": "Integrated identity verification to ensure platform credibility."
+      }
+    ],
+
+    "tech": ["Next.js", "React", "Node.js", "MongoDB", "Stripe", "TalkJS"],
+
+    "gallery": [
+      "/images/project/rllyme-project-gallery-4.webp",
+      "/images/project/rllyme-project-gallery-3.webp"
+    ]
+  },
+
+  {
+    "id": 2,
+    "title": "Gorgine",
+    "tagline": "Real-time multiplayer mafia game with audio & video communication",
+    "image": "/images/project/nostradamus.webp",
+    "cover": "/images/project/gorgine-tutorial.webp",
+
+    "highlights": [
+      "Low-latency WebRTC audio/video communication",
+      "Real-time multiplayer interaction",
+      "Scalable backend for concurrent users"
+    ],
+
+    "context": "An online mafia game platform enabling players to communicate via real-time audio and video during gameplay.",
+
+    "problem": [
+      "Traditional online games lack immersive communication",
+      "High latency breaks real-time interaction",
+      "Scaling real-time media systems is complex"
+    ],
+
+    "solution": "Built a WebRTC-powered platform with optimized signaling and backend architecture for seamless real-time gameplay.",
+
+    "role": [
+      "Implemented WebRTC and Mediasoup integration",
+      "Developed backend signaling and session handling",
+      "Built real-time messaging using WebSockets",
+      "Optimized performance for low latency"
+    ],
+
+    "challenges": [
+      {
+        "title": "Real-time media handling",
+        "description": "Managed bandwidth optimization and connection stability."
+      },
+      {
+        "title": "Scalability",
+        "description": "Designed backend to handle concurrent game sessions efficiently."
+      }
+    ],
+
+    "tech": ["React", "Node.js", "MongoDB", "WebRTC", "Mediasoup", "Socket.io"],
+
+    "gallery": [
+      "/images/project/mafia_psychology.webp",
+      "/images/project/professional.webp"
+    ]
+  },
+
+  {
+    "id": 3,
+    "title": "Keilot",
+    "tagline": "Community operating system for managing shared economies",
+    "image": "/images/project/Platform Homepage.png",
+    "cover": "/images/project/CM - Supplier index.png",
+
+    "highlights": [
+      "Multi-tenant community management system",
+      "Real-time financial tracking & analytics",
+      "Supplier marketplace integration"
+    ],
+
+    "context": "A platform designed for communities to manage shared finances, suppliers, and operations in one centralized system.",
+
+    "problem": [
+      "Communities rely on spreadsheets and fragmented tools",
+      "Lack of transparency in shared finances",
+      "Manual coordination creates inefficiencies"
+    ],
+
+    "solution": "Developed a centralized system enabling communities to manage finances, suppliers, and operations with real-time insights.",
+
+    "role": [
+      "Built scalable multi-tenant architecture",
+      "Developed financial tracking and analytics modules",
+      "Implemented role-based access control",
+      "Designed APIs for supplier and payment workflows"
+    ],
+
+    "challenges": [
+      {
+        "title": "Multi-tenant architecture",
+        "description": "Ensured data isolation and scalability across multiple communities."
+      },
+      {
+        "title": "Financial accuracy",
+        "description": "Handled real-time updates and consistency in shared transactions."
+      }
+    ],
+
+    "tech": ["Next.js", "React", "Node.js", "MongoDB"],
+
+    "gallery": [
+      "/images/project/Platform Homepage.png",
+      "/images/project/Product Table.png"
+    ]
+  },
+
+  {
+    "id": 4,
+    "title": "Octavio",
+    "tagline": "AI-assisted business automation platform for service businesses",
+    "image": "/images/project/feature-schedule.a97fbc11.png",
+    "cover": "/images/project/hero-marketplace.efe5009e.png",
+
+    "highlights": [
+      "AI-powered lead response system",
+      "Real-time booking & scheduling",
+      "Integrated payments & invoicing"
+    ],
+
+    "context": "A SaaS platform designed to replace fragmented tools used by service businesses.",
+
+    "problem": [
+      "Businesses rely on multiple disconnected tools",
+      "Manual workflows cause inefficiencies",
+      "Limited visibility into operations"
+    ],
+
+    "solution": "Built a centralized platform combining bookings, payments, automation, and marketplace discovery.",
+
+    "role": [
+      "Developed full-stack features using MERN & Next.js",
+      "Designed REST APIs for core workflows",
+      "Implemented authentication and RBAC",
+      "Optimized performance and scalability"
+    ],
+
+    "challenges": [
+      {
+        "title": "Scheduling conflicts",
+        "description": "Handled overlapping bookings with server-side validation."
+      },
+      {
+        "title": "Automation flexibility",
+        "description": "Designed configurable automation instead of rigid flows."
+      }
+    ],
+
+    "tech": ["Next.js", "React", "Node.js", "MongoDB", "Stripe"],
+
+    "gallery": [
+      "/images/project/octavio-booking.PNG",
+      "/images/project/feature-reminders-text-teal.41004b76.png"
+    ]
+  }
+]
